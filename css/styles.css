@@ -1,0 +1,61 @@
+.jumbotron {
+	padding: 70px 30px 70px 30px;
+	margin: 0px auto;
+	background: #2B60DE/*#a0d2eb/*#5F62FF*//*#6C3AFF*/;
+	color: floralwhite;
+}
+
+.footer {
+	background-color: #0BB5FF/*#7851A9/*#d0bdf4/*#5F9EFF*/;
+	margin: 0px auto;
+	padding: 20px 0px 20px 0px;
+}
+
+.body {
+	padding: 50px 0px 0px 0px;
+	z-index: 0;
+}
+
+.row-content {
+	margin: 0px auto;
+	padding: 50px 0px 50px 0px;
+	border-bottom:1px ridge;
+	
+}
+
+/*to design the carousel*/
+.carousel {
+    background:#512DA8;
+}
+
+.carousel-item {
+  height: 300px;
+}
+
+.carousel-item img {
+    
+    top: 0;
+    left: 0;
+   	height: 300px;
+   	width: 300px;
+}
+/*the borders is made by me to create box like structure around gallery items*/
+.borders {
+	border-left: 1px solid #ddd;
+  	border-right: 1px solid #ddd;
+  	border-bottom: 1px solid #ddd;
+  	border-top: 1px solid #ddd;
+  	margin-bottom: 10px;
+}
+
+#carouselButton {
+    right:0px;
+    position: absolute;
+    bottom: 0px;
+    z-index: 1;
+}
+/*ends*/
+.responsive {
+  height: auto;
+  max-height: 500px;
+}
